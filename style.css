@@ -18,7 +18,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 80px;
+    height: 70px;
     position: fixed;
     background-color: #111111;
     top: 0;
@@ -29,7 +29,7 @@ body{
     color: #FAFBFC;
 }
 .navbar li{
-    margin: 30px;
+    margin: 10px;
     color: #FAFBFC;
 }
 .navbar ul li{
