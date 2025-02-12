@@ -14,7 +14,7 @@ body{
     color: #edff00;
     
 }
-/* .navbar{
+.navbar{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -23,7 +23,7 @@ body{
     background-color: #111111;
     top: 0;
     width: 99%;
-} */
+}
 .navbar ul{
     display: flex;
     color: #FAFBFC;
