@@ -7,7 +7,7 @@
 }
 
 main {
-    background-color: #FAFBFC;
+    /* background-color: #FAFBFC; */
 }
 
 /* Configuração da navbar */
@@ -15,13 +15,16 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-     background-color: #FAFBFC;/* tirar essa cor, ficar branco */
+    background-color: #ffffff;
     height: 70px;
     position: fixed;
     top: 0;
     width: 100%;
     padding: 0 20px;
+    z-index: 1030;
 }
+
+
 
 /* Estilizando o nome do site */
 .navbar h2 {
@@ -99,5 +102,33 @@ main {
     align-items: flex-start; /* Garante que os itens dentro da div fiquem à esquerda */
 }
 
+.map-container {
+    width: 700px;  /* Largura fixa */
+    height: 700px; /* Altura fixa para manter quadrado */
+    margin: 20px auto; /* Centraliza horizontalmente e dá espaço abaixo do título */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #ccc; /* Opcional: borda para visualização */
+    border-radius: 10px;
+    background: white; /* Fundo para melhor destaque */
+    position: relative;
+    z-index: 1; /* Garante que o mapa fique atrás do título */
+}
+
+#map {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.title{
+    align-items: center;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+    z-index: 2;
+}
 
 
