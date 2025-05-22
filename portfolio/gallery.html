@@ -1,38 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Gallery</title>
-    <link rel="stylesheet" href="style_gallery.css">
-    
-</head>
-<body>
+    <link rel="stylesheet" href="style/style_gallery.css" />
+    <link rel="" href="" />
+  </head>
+  <body>
     <nav>
-        <a href="index.html" target="_self"><h1>FullPower</h1></a> 
+      <a href="index.html" target="_self"><h1>FullPower</h1></a>
     </nav>
     <main>
-        <div class="gallery">
-            <img src="imagens/1.jpeg" alt="This is a Midnight Club Porsche. The BlackBird" onclick="openModal(this)">
-            <img src="imagens/2.jpeg" alt="A Subaru Impreza WRC with a cyberpunk touch." onclick="openModal(this)">
-            <img src="imagens/3.jpeg" alt="McLaren F1 racing through history." onclick="openModal(this)">
-            <img src="imagens/4.jpeg" alt="Initial D Skyline GTR, a drift legend." onclick="openModal(this)">
-            <img src="imagens/5.jpeg" alt="A classic Honda Civic from JDM culture." onclick="openModal(this)">
-            <img src="imagens/6.jpeg" alt="Subaru Impreza in rally action, WRC 1997." onclick="openModal(this)">
-            <img src="imagens/7.jpeg" alt="The Ferrari F40: a raw, untamed masterpiece of speed and engineering, built to thrill and born to dominate the road." onclick="openModal(this)">
-            <img src="imagens/8.jpeg" alt="McLaren P1: The perfect fusion of cutting-edge technology and raw performance, redefining the future of hypercars." onclick="openModal(this)">
-            <img src="imagens/9.jpeg" alt="Audi Quattro: The legend that revolutionized rallying, bringing quattro all-wheel drive dominance to the streets." onclick="openModal(this)">
-            <img src="imagens/10.jpeg" alt="Capa do Mangá Wangan MidNight" onclick="openModal(this)">
-            <img src="imagens/11.jpeg" alt="Lamborghini Diablo: A raging V12 beast, born to defy limits and ignite the passion of true speed enthusiasts." onclick="openModal(this)">
-            <img src="imagens/12.jpeg" alt="Sebastian Vettel bowing to his Red Bull car, honoring the machine that carried him to greatness." onclick="openModal(this)">
-        </div>
+      <div class="gallery">
+        <img
+          src="imagens/1.jpeg"
+          alt="This is a Midnight Club Porsche. The BlackBird"
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/2.jpeg"
+          alt="A Subaru Impreza WRC with a cyberpunk touch."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/3.jpeg"
+          alt="McLaren F1 racing through history."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/4.jpeg"
+          alt="Initial D Skyline GTR, a drift legend."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/5.jpeg"
+          alt="A classic Honda Civic from JDM culture."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/6.jpeg"
+          alt="Subaru Impreza in rally action, WRC 1997."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/7.jpeg"
+          alt="The Ferrari F40: a raw, untamed masterpiece of speed and engineering, built to thrill and born to dominate the road."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/8.jpeg"
+          alt="McLaren P1: The perfect fusion of cutting-edge technology and raw performance, redefining the future of hypercars."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/9.jpeg"
+          alt="Audi Quattro: The legend that revolutionized rallying, bringing quattro all-wheel drive dominance to the streets."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/10.jpeg"
+          alt="Capa do Mangá Wangan MidNight"
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/11.jpeg"
+          alt="Lamborghini Diablo: A raging V12 beast, born to defy limits and ignite the passion of true speed enthusiasts."
+          onclick="openModal(this)"
+        />
+        <img
+          src="imagens/12.jpeg"
+          alt="Sebastian Vettel bowing to his Red Bull car, honoring the machine that carried him to greatness."
+          onclick="openModal(this)"
+        />
+      </div>
 
-        <div id="imageModal" class="modal">
-            <span class="close" onclick="closeModal()">&times;</span>
-            <img class="modal-content" id="modalImg">
-            <div id="caption"></div>
-        </div>
+      <div id="imageModal" class="modal">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <img class="modal-content" id="modalImg" />
+        <div id="caption"></div>
+      </div>
     </main>
-    <script src="script_gallery.js"></script>
-</body>
+    <script src="script/script_gallery.js"></script>
+  </body>
 </html>
