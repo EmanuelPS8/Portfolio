@@ -1,68 +1,169 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style/style.css" />
-    <title>FullPower</title>
+    <title>Emanuel</title>
+    <meta
+      name="description"
+      content="Portfolio de Emanuel, desenvolvedor web especializado em front-end e back-end. Conheça meus projetos e habilidades."
+    />
+    <meta
+      name="keywords"
+      content="Emanuel, portfolio, desenvolvedor web, front-end, back-end, projetos, habilidades"
+    />
+    <meta name="author" content="Emanuel Pereira Schlickmann" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <nav class="navbar">
-      <a href="index.html" class="logo">FullPower</a>
-      <ul class="menu">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#ABOUT">About</a></li>
-        <li><a href="gallery.html">Photos</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h2 class="logo">Emanuel</h2>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
     <main>
-      <!-- Slide de images -->
-      <ul class="slider">
-        <li>
-          <input type="radio" id="slide1" name="slide" checked />
-          <label for="slide1"></label>
-          <img src="imagens/11.jpeg" alt="Imagem 1" />
-        </li>
-        <li>
-          <input type="radio" id="slide2" name="slide" />
-          <label for="slide2"></label>
-          <img src="imagens/2.jpeg" alt="Imagem 2" />
-        </li>
-        <li>
-          <input type="radio" id="slide3" name="slide" />
-          <label for="slide3"></label>
-          <img src="imagens/3.jpeg" alt="Imagem 3" />
-        </li>
-      </ul>
-      <div class="about">
-        <h2 id="ABOUT">About</h2>
-        <p>
-          We are a platform dedicated to the passion for automobiles, showcasing
-          stunning images of iconic, classic, and modern cars. Our mission is to
-          share the beauty and excitement of the automotive world through
-          high-quality photography, capturing every detail of design, speed, and
-          performance. If you're a car enthusiast, this is your place to explore
-          and get inspired!
-        </p>
-      </div>
+      <div class="principal">
+        <section>
+          <article>
+            <div class="photo">
+              <img src="img/photo.jpeg" alt="" />
+            </div>
+          </article>
+          <article>
+            <div class="bem-vindo">
+              <p>
+                Bem-vindo ao meu portfólio de desenvolvimento. Aqui, mostrarei
+                meus projetos mais relevantes na área de desenvolvimento, minhas
+                habilidades com tecnologia e minha experiência na área. Este
+                portfólio será atualizado com frequência para que você possa
+                acompanhar meus projetos mais recentes.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="sobre" id="sobre">
+              <h1>
+                Desenvolvedor Full Stack | Criando Experiências Digitais
+                Intuitivas
+              </h1>
+              <p>
+                Sou Emanuel Pereira Schlickmann, um desenvolvedor de São Ludgero
+                (SC) apaixonado por transformar ideias complexas em soluções
+                digitais eficientes e agradáveis. Com sólida experiência em
+                front-end e back-end, meu foco é desenvolver aplicações que não
+                apenas funcionam perfeitamente, mas que também encantam o
+                usuário. Estou sempre explorando novas tecnologias para
+                aprimorar minhas habilidades e entregar os melhores resultados.
+              </p>
+            </div>
+          </article>
+          <article>
+            <div class="habilidades-container">
+              <div class="habilidade">
+                <img src="img/java.png" alt="" />
+                <p>Java</p>
+              </div>
+              <div class="habilidade">
+                <img src="img/mysql.png" alt="" />
+                <p>MySQL</p>
+              </div>
+              <div class="habilidade">
+                <img src="img/html.png" alt="" />
+                <p>HTML</p>
+              </div>
+              <div class="habilidade">
+                <img src="img/css.png" alt="" />
+                <p>CSS</p>
+              </div>
+              <div class="habilidade">
+                <img src="img/script-java.png" alt="" />
+                <p>JavaScript</p>
+              </div>
+              <div class="habilidade">
+                <img src="img/Flutter.png" alt="" />
+                <p>Flutter</p>
+              </div>
+              <div class="habilidade">
+                <img src="img/git.png" alt="" />
+                <p>Git/Github</p>
+              </div>
+            </div>
+          </article>
 
-      <div class="photos">
-        <h2>Photos</h2>
-        <div class="gallery">
-          <img src="imagens/6.jpeg" alt="Imagem 6" />
-          <img src="imagens/7.jpeg" alt="Imagem 7" />
-          <img src="imagens/12.jpeg" alt="Imagem 12" />
-          <div class="gallery-box">
-            <p>
-              Explore our full gallery and discover more stunning car photos!
-            </p>
-            <a href="gallery.html" class="gallery-button" target="_self"
-              >View More Photos</a
-            >
-          </div>
-        </div>
+          <article>
+            <div class="card-container" id="projetos">
+              <div class="card-projeto">
+                <h3>Projeto 1: Sistema de Gerenciamento de Faturas</h3>
+                <p>
+                  Um programa em java para gerenciar faturas de um mercado, com
+                  funcionalidades de criação, edição e exclusão de produtos.
+                </p>
+                <a
+                  href="https://github.com/EmanuelPS8/poo_financial_service"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+              <div class="card-projeto">
+                <h3>Projeto 2: Sistema de Gerenciamento de Tarefas</h3>
+                <p>
+                  Um aplicativo web para gerenciar tarefas diárias, com
+                  funcionalidades de criação, edição e exclusão de tarefas.
+                </p>
+                <a
+                  href="https://github.com/EmanuelPS8/to-do-list"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+              <div class="card-projeto">
+                <h3>Projeto 3: Sistema de Gerenciamento de Pessoas</h3>
+                <p>
+                  Um aplicativo em Flutter e Java para gerenciar pessoas, com
+                  funcionalidades de criação, edição e exclusão de usuários.
+                </p>
+                <a
+                  href="https://github.com/EmanuelPS8/project_devti"
+                  target="_blank"
+                  >GitHub</a
+                >
+              </div>
+              <div class="card-projeto">
+                <h3>Projeto 4: GEPPHAE</h3>
+                <p>
+                  Um site do GEPPHAE, com funcionalidades de criação e exclusão
+                  de eventos e notícias com banco MySQL integrado.
+                </p>
+                <a href="https://github.com/EmanuelPS8/projeto_final">GitHub</a>
+              </div>
+            </div>
+          </article>
+        </section>
       </div>
     </main>
+    <footer id="contato">
+      <div class="footer-container">
+        <p>
+          Desenvolvido por Emanuel Pereira Schlickmann - 2025. Todos os direitos
+          reservados.
+        </p>
+        <div class="footer-contact">
+          <a href="mailto:emanuel.schlickmann@gmail.com"
+            >emanuel.schlickmann@gmail.com</a
+          >
+          <a href="https://github.com/EmanuelPS8" target="_blank">GitHub</a>
+          <a
+            href="https://www.linkedin.com/in/emanuel-p-schlickmann/"
+            target="_blank"
+            >LinkedIn</a
+          >
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
